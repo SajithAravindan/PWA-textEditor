@@ -2,7 +2,7 @@
 
 ## Description
 
-Ever wanted to leave a book review? Tired of GoodReads? Give our website a try. BookerReviewer is a one stop shop for all book reviewing needs. You’re able to look up books, add a review, leave a rating, and see the reviews others have left on the website.
+This is a text editor (J.A.T.E) that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.The integrated service worker and Cache API's ensure that the application will remain fully functional even without and active internet connection. This application is deployed to Heroku.
 
 User Story & Acceptance Criteria follow the AS AN / I WANT / SO THAT format.
 
