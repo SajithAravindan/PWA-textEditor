@@ -14,11 +14,7 @@ User Story & Acceptance Criteria follow the AS AN / I WANT / SO THAT format.
   
 * [Technologies Used](#technologies-used)  
 
-* [Usage](#usage)
-
-* [Credits](#credits)
-
-* [Presentation](#presentation) 
+* [Installation](#Installation)
 
 * [Demo](#demo) 
 
@@ -65,29 +61,29 @@ GIVEN a text editor web application
 
 ## Technologies Used
 
-Node.js, Express.js, Handlebars, Sessions, Sequelize nodemailer, bcrypt, dotenv and MySQL.
+* Mini-CSS-Extract Plugin
+* Webpack+Workbox
+* Concurrently
+* JavaScript
+* IndexedDB
+* Express
+* NodeJS
+* Babel
 
 
-## Usage
+## Installation
 
-As mentioned above, users can create an account, login, create a review/rate books you've read and also read reviews from other users!
-
-
-## Credits
-
-- https://nodemailer.com/about/ - used nodmailer to welcome new users on sign up.
-
-
-## Presentation
-
-Link to presentation [(https://docs.google.com/presentation/d/10mNnZ41kgi2nFrGSVbyeX_UDrG2IgeSDkwl0oWcEGfQ/edit?usp=sharing)]
-
+To install this project:
+* Start by forking this repository and clone repository to your local machine.
+* Open the project in your preffered IDE
+* Look at package.json file that specifies dependencies for this project, so be sure to run `npm    install`. This will install all the required packages. 
+* Invoke application with `npm run start`
 
 ## Demo
 
-<img src='/public/imgs/demo.png'>
+<img src='./client/src/images/demo.png'>
 
-Deployed Application URL: https://blooming-thicket-72514-75b0ef205a97.herokuapp.com/
+Deployed Application URL: https://pwa-texteditor.onrender.com/
 
 GitHub URL: https://github.com/SajithAravindan/PWA-textEditor.git
 
